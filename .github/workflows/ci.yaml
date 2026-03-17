@@ -7,6 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkoutv3
-      -name: Run a script
-       run: echo "Hello MLOPS!"
-"
+      - name: Run a script
+        run: echo "Hello MLOPS!"
